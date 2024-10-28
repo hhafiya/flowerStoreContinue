@@ -2,9 +2,11 @@ package com.flower.flowerContinue.flower;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 @Getter @Setter @AllArgsConstructor
+@NoArgsConstructor
 public class Flower extends Item {
     private int sepalLength;
     private double price;

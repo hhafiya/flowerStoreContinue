@@ -1,6 +1,6 @@
 package com.flower.flowerContinue.delivery;
 
-import com.flower.flowerContinue.business.Order;
+import com.flower.flowerContinue.order.Order;
 
 public class PostDeliveryStrategy implements Delivery{
     @Override
