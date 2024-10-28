@@ -1,4 +1,4 @@
-package com.flower.flowerContinue.delivery;
+package com.flower.flowerсontinue.delivery;
 import static org.junit.jupiter.api.Assertions.assertDoesNotThrow;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -9,10 +9,11 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import com.flower.flowerContinue.flower.Flower;
-import com.flower.flowerContinue.flower.FlowerType;
-import com.flower.flowerContinue.order.Order;
-import com.flower.flowerContinue.payment.CreditCardPaymentStrategy;
+import com.flower.flowerсontinue.delivery.DHLDeliveryStrategy;
+import com.flower.flowerсontinue.flower.Flower;
+import com.flower.flowerсontinue.flower.FlowerType;
+import com.flower.flowerсontinue.order.Order;
+import com.flower.flowerсontinue.payment.CreditCardPaymentStrategy;
 
 @SpringBootTest
 public class DHLDeliveryStrategyTest {

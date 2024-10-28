@@ -1,4 +1,4 @@
-package com.flower.flowerContinue.payment;
+package com.flower.flowerсontinue.payment;
 
 
 public interface Payment {

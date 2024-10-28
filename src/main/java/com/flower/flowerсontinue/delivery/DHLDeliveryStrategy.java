@@ -1,6 +1,6 @@
-package com.flower.flowerContinue.delivery;
+package com.flower.flowerсontinue.delivery;
 
-import com.flower.flowerContinue.order.Order;
+import com.flower.flowerсontinue.order.Order;
 
 public class DHLDeliveryStrategy implements Delivery{
     @Override
